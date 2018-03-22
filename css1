@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html" charset="utf-8">
+	<title>css</title>
+	<style type="text/css">
+		p{
+			font-size: 20px;
+			color: red;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<p>你好小熊猫</p>
+</body>
+</html>

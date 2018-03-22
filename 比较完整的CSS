@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>html标签</title>
+    </head>
+
+
+    <body>
+        <h1>勇气</h1>
+        <p><blockquote><em>三年级</em>时，我还是一个<strong>胆小如鼠</strong>的<q>小</q>女孩，上<q>课</q>从来不敢回答老师提出的问题，生怕回答错了老师会批评我。就一直没有这个勇气来回答老师提出的问题。学校举办的活动我也没勇气参加。</blockquote></p>
+        <hr/>
+        <p>到了三年级下学期时，我们班&nbsp上了一节公开课，老师提出了一个<a href="https://daohang.qq.com/?fr=hmpage" title="就是很简单啦" target="_blank">很简单的问题<a>，班里很<br/>多同学都举手了，甚至成绩比我差很多的，也举手了，还说着："我来，我来。"我环顾了四周，就<address>我没有举</address>手。<a href="mailto:11421540@qq.com?cc=11477869@qq.com&subject=姓名+学校&body=你好">发送</a>
+        </p>
+        <code>meta http-equiv="Content-Type" content="text/html; charset=utf-8"</code>
+        <pre>
+            font-size: 12px;
+            color: #930;
+            text-align: center;
+        </pre>
+        <div id="youxu"><ul>
+            <li>
+                蛋挞
+            </li>
+            
+            <li>鸡翅</li>
+        </div>
+
+        </ul>
+        <ol>
+             <li>
+                蛋挞
+            </li>
+            
+            <li>鸡翅</li>
+        </ol>
+    </body>
+
+
+</html>

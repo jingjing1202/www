@@ -1,0 +1,87 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>感情的事儿</title>
+	<style type="text/css">
+		table tr td,th{border: 1px solid #000}
+	</style>
+</head>
+<body>
+	<h1>你的喜欢</h1>
+	<h2>怎么感觉到的？</h2>
+	<p>这么多次约我看<em>电影、吃饭</em>，还<strong>妄图抓我的手</strong>，这应该就是喜欢了吧</p>
+	<p>这都不算，过马路的时候<span style="color:red;font-size:20px">有意的触碰</span>总是喜欢了吧</p>
+	<h2>喜欢到什么程度？</h2>
+	<p>说实话我觉得很淡，可能只有30%-50%？但是&nbsp有些人对感情就是淡淡的</p>
+	<p>你曾说：</p>
+	<q>跳槽就要搬到离我很远的地方了</q>
+	<br/>
+	<br/>
+	<h1>我的情感</h1>
+	<p>谈不上喜欢最多叫好感，最多20%</p>
+	<hr/>
+	<h1>我理想的感情</h1>
+	<p>彼此喜欢程度要达到90%以上，天秤倒是和水瓶很搭</p>
+	<p>想念我就给我发邮件吧：<a href="mailto:17600209739@163.com">发送</a>或者来<address>北京市朝阳区</address>找我</p>
+	<div id="like">
+	<h2>说说什么样的男生能吸引我吧</h2>
+	<ul>
+		<li>善良</li>
+		<li>真诚</li>
+		<li>有上进心</li>
+	</ul>
+	</div>
+	<div id="dislike">
+	<h2>说说我最不能忍受的男生的缺点吧</h2>
+	<ol>
+		<li>出轨</li>
+		<li>脾气不好</li>
+		<li>对未来没有规划</li>
+	</ol>
+	</div>
+	<code>meta http-equiv="Contene-Type" content="text/html; charset=utf-8"</code>
+	    <pre>
+            font-size: 12px;
+            color: #930;
+            text-align: center;
+        </pre>
+	<hr/>
+	<table>
+		<caption>about me</caption>
+		<tr>
+			<th>喜欢吃</th>
+			<th>不喜欢吃</th>
+			<th>爱好</th>
+		</tr>
+		<tr>
+			<td>牛奶</td>
+			<td>韭菜</td>
+			<td>跑步</td>
+		</tr>
+		<tr>
+			<td>巧克力</td>
+			<td>臭豆腐</td>
+			<td>画画</td>
+		</tr>
+	</table>
+	<hr/>
+	<p>链接到<a href="http://www.baidu.com/" title="百度">百度</a></p>
+	<p>链接到新窗口<a href="http://www.baidu.com/" target="_blank" title="百度">百度</a></p>
+	<img src="https://www.baidu.com/img/bd_logo1.png" title="baidu"> 
+	<hr/>
+	<form method="post" action="save.php">
+		<label for="username">用户名：</label>
+		<input type="text" name="username"/>
+		<br/>
+		<label for="pass">密码：</label>
+		<input type="password" name="pass"/>
+		<br/>
+		<input type="submit" name="submit" value="登录"/>
+		<input type="reset" name="reset" value="重置"/>
+		<hr>
+		<hr>
+	</form>
+	<p>你在哪里</p>
+</body>
+</html>

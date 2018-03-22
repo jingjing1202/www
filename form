@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>form</title>
+</head>
+<body> 
+<form name="iForm" method="post" action="save.php">
+	<label for="username">用户名：</label>
+	<input type="text" name="myName" placeholder="请输入用户名"/>
+	<br>
+	<label for="pass">密码：</label>
+	<input type="password" name="myPassword" placeholder="请输入密码"/>
+	<br>
+	<label>个人简介</label>
+	<textarea cols="50" rows="30"></textarea>
+	<br>
+	<label>性别</label>
+	<label>男</label>
+	<input type="radio" value="1" name="gender">
+	<label>女</label>
+	<input type="radio" value="2" name="gender">
+	<br>
+	<label>我现在想吃什么</label>
+	<label for="chocolate">巧克力</label>
+	<input type="checkbox" value="巧克力" name="checkbox1" id="chocolate" checked="checked" />
+	<input type="checkbox" value="蛋挞" name="checkbox2"/>蛋挞
+	<input type="checkbox" value="鸡翅" name="checkbox3"/>鸡翅
+	<br>
+	<label>明早吃什么</label>
+	<select>
+		<option value="1">鸡蛋</option>
+		<option value="2">肉</option>
+		<option value="3" selected="selected">蔬菜</option>
+	</select>
+	<br>
+	<label>明天中午吃什么</label>
+	<select multiple="multiple">
+		<option value="1">合利屋</option>
+		<option value="2">食堂</option>
+		<option value="3" selected="selected">小院</option>
+	</select>
+	<br>
+	<label>姓名</label>
+	<input type="text" placeholder="请输入姓名" name="myName">
+	<input type="submit" name="submitBtn"/>
+	<br>
+	<label>你去过的地方</label>
+	<select multiple="multiple">
+		<option value="北京">北京</option>
+		<option value="上海">上海</option>
+		<option value="天津" selected="selected">天津</option>
+		<input type="submit" value="提交" name="submitBtn1"/>
+		<input type="reset" value="重置" name="reset1"/>
+	</select>
+	<br>
+</form>
+</body>
+</html>
