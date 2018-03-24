@@ -83,5 +83,7 @@
 		<hr>
 	</form>
 	<p>链接到新窗口<a href="http://www.baidu.com/" target="_blank" title="百度">百度</a></p>
+
+	<p>修复了一个bug</p>
 </body>
 </html>
