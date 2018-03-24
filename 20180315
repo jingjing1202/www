@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -82,6 +82,6 @@
 		<hr>
 		<hr>
 	</form>
-	<p>你在哪里</p>
+	<p>链接到新窗口<a href="http://www.baidu.com/" target="_blank" title="百度">百度</a></p>
 </body>
 </html>
