@@ -102,5 +102,14 @@
 			<option value="画画">画画</option>
 		</select>
 	</form>
+	<hr>
+	<form method="post" action="save.php">
+		<label>爱好</label>
+		<select multiple="multile">
+			<option value="阅读">阅读</option>
+			<option value="写作" selected="selected">写作</option>
+			<option value="画画">画画</option>
+		</select>
+	</form>
 </body>
 </html>
