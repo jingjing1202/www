@@ -111,5 +111,11 @@
 			<option value="画画">画画</option>
 		</select>
 	</form>
+	<hr>
+	<form method="post" action="save.php">
+		<label for="Myname">姓名</label>
+		<input type="text" value=" " name="Myname">
+		<input type="submit" value="提交" name="submitBtn">
+	</form>
 </body>
 </html>
