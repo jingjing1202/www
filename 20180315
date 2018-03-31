@@ -117,5 +117,18 @@
 		<input type="text" value=" " name="Myname">
 		<input type="submit" value="提交" name="submitBtn">
 	</form>
+	<hr>
+	<form method="post" action="save.php">
+		<!--添加一个label标签-->
+		感兴趣的运动
+		<br>
+		<label for="running">跑步</label>
+		<input type="checkbox" name="running" id="running"/>
+		<label for="basketball">篮球</label>
+		<input type="checkbox" name="basketball" id="basketball" checked="checked">
+		<label for="swimming">游泳</label>
+		<input type="checkbox" name="swimming" id="swimming">
+	</form>
+	<hr>
 </body>
 </html>
