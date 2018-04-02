@@ -5,7 +5,9 @@
 	<title>CSS类选择器</title>
 	
 	<style type="text/css">
-	.setYellow{color: yellow;}
+	.stress{color: yellow;}
+	.bigsize{font-size: 30px;}
+	#stressid{color:green;}
 	span{
 		font-size: 20px;
 		color: red;
@@ -14,6 +16,6 @@
 	</style>
 </head>
 <body>
-	<p>巧<span style="color:blue">乐</span>兹<span>好吃吗</span>111<span class="setYellow">1</span>1111</p>
+	<p>巧<span style="color:blue">乐</span>兹<span>好吃吗</span>111<span class="stress bigsize">1</span>11<span id="stressid">1</span>1</p>
 </body>
 </html>
