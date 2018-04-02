@@ -3,14 +3,18 @@
 <head>
 	<meta http-equiv="Content-type" content="text/html"; charest="utf-8">
 	<title>CSS子类选择器</title>
+	<!--添加包含（后代）选择器&通用选择器&伪类选择器-->
 	<style type="text/css">
-	.food>li{border:1px solid red;}
+	*{color:green;}
+	.fruits>li{border:1px solid red;}
+	.vegetable li{border:1px solid blue;}
 	.first>span{border:1px solid red;}
+	a:hover{size: 20px;color: yellow;}
 	</style>
 </head>
 <body>
-	<p class="first">巧<span>乐</span>兹好吃吗</p>
-	<ul class="food">
+	<p class="first">巧<span>乐</span>兹<a>好吃</a>吗</p>
+	<ul class="fruits">
 	<li>水果
 		<ul>
 		<li>香蕉</li>
@@ -18,5 +22,12 @@
 		</ul>
 	</li>
 	</ul>
+	<ol class="vegetable">
+	<li>蔬菜
+		<ol>
+		<li>西红柿</li>
+		<li>黄瓜</li>
+		</ol>
+	</li>
 </body>
 </html>
