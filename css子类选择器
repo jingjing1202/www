@@ -5,11 +5,15 @@
 	<title>CSS子类选择器</title>
 	<!--添加包含（后代）选择器&通用选择器&伪类选择器-->
 	<style type="text/css">
+	body{text-indent:2em;line-height: 2em;letter-spacing: 20px;text-align: center;}
 	*{color:green;}
 	.fruits>li{border:1px solid red;}
 	.vegetable li{border:1px solid blue;}
 	.first>span{border:1px solid red;}
 	a:hover{size: 20px;color: yellow;}
+	a{text-decoration: underline;}
+	li{text-decoration:line-through;}
+	body{font-family:"Microsoft Yahei";}
 	</style>
 </head>
 <body>
