@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html"; charest="utf-8">
+	<title>CSS字体</title>
+	
+	<style type="text/css">
+	span{
+		font-size: 20px;
+		color: red;
+		font-weight: bold;/*Casscading Style Sheets层叠样式表*/
+	}
+	</style>
+	<link href="main.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<p>巧<span style="color:blue">乐</span>兹<span>好吃吗</span></p>
+</body>
+</html>
