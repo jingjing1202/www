@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html"; charest="utf-8">
+	<title>CSS子类选择器</title>
+	<style type="text/css">
+	.food>li{border:1px solid red;}
+	.first>span{border:1px solid red;}
+	</style>
+</head>
+<body>
+	<p class="first">巧<span>乐</span>兹好吃吗</p>
+	<ul class="food">
+	<li>水果
+		<ul>
+		<li>香蕉</li>
+		<li>芒果</li>
+		</ul>
+	</li>
+	</ul>
+</body>
+</html>
